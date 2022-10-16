@@ -11,6 +11,14 @@
 		63A2109328FB6E5B00622DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2109228FB6E5B00622DAE /* ContentView.swift */; };
 		63A2109528FB6E5D00622DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A2109428FB6E5D00622DAE /* Assets.xcassets */; };
 		63A2109928FB6E5D00622DAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A2109828FB6E5D00622DAE /* Preview Assets.xcassets */; };
+		63A210A028FB6EA000622DAE /* EnumStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2109F28FB6EA000622DAE /* EnumStyle.swift */; };
+		63A210A328FB6EF500622DAE /* EnumStyleSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A210A228FB6EF500622DAE /* EnumStyleSheetView.swift */; };
+		63A210A728FB71DB00622DAE /* ThemeEnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A210A628FB71DB00622DAE /* ThemeEnvironmentKey.swift */; };
+		63A210A928FB720E00622DAE /* EnvironmentValues+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A210A828FB720E00622DAE /* EnvironmentValues+Extensions.swift */; };
+		63A210AB28FB737300622DAE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A210AA28FB737300622DAE /* Theme.swift */; };
+		63A210AD28FB740900622DAE /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A210AC28FB740900622DAE /* View+Extensions.swift */; };
+		63A210B028FB7C7A00622DAE /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A210AF28FB7C7A00622DAE /* ColorTheme.swift */; };
+		63A210B228FB86D900622DAE /* ParameterPassedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A210B128FB86D900622DAE /* ParameterPassedContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		63A2109428FB6E5D00622DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A2109628FB6E5D00622DAE /* ThemeStyle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThemeStyle.entitlements; sourceTree = "<group>"; };
 		63A2109828FB6E5D00622DAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63A2109F28FB6EA000622DAE /* EnumStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumStyle.swift; sourceTree = "<group>"; };
+		63A210A228FB6EF500622DAE /* EnumStyleSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumStyleSheetView.swift; sourceTree = "<group>"; };
+		63A210A628FB71DB00622DAE /* ThemeEnvironmentKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEnvironmentKey.swift; sourceTree = "<group>"; };
+		63A210A828FB720E00622DAE /* EnvironmentValues+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extensions.swift"; sourceTree = "<group>"; };
+		63A210AA28FB737300622DAE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		63A210AC28FB740900622DAE /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		63A210AF28FB7C7A00622DAE /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		63A210B128FB86D900622DAE /* ParameterPassedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterPassedContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,9 @@
 			children = (
 				63A2109028FB6E5B00622DAE /* ThemeStyleApp.swift */,
 				63A2109228FB6E5B00622DAE /* ContentView.swift */,
+				63A210A128FB6EBF00622DAE /* Theme */,
+				63A210B328FB941700622DAE /* ParameterPassed */,
+				63A210AE28FB7B7000622DAE /* Enum-Style */,
 				63A2109428FB6E5D00622DAE /* Assets.xcassets */,
 				63A2109628FB6E5D00622DAE /* ThemeStyle.entitlements */,
 				63A2109728FB6E5D00622DAE /* Preview Content */,
@@ -67,6 +86,35 @@
 				63A2109828FB6E5D00622DAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63A210A128FB6EBF00622DAE /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				63A210AF28FB7C7A00622DAE /* ColorTheme.swift */,
+				63A210AA28FB737300622DAE /* Theme.swift */,
+				63A210A628FB71DB00622DAE /* ThemeEnvironmentKey.swift */,
+				63A210A828FB720E00622DAE /* EnvironmentValues+Extensions.swift */,
+				63A210AC28FB740900622DAE /* View+Extensions.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		63A210AE28FB7B7000622DAE /* Enum-Style */ = {
+			isa = PBXGroup;
+			children = (
+				63A210A228FB6EF500622DAE /* EnumStyleSheetView.swift */,
+				63A2109F28FB6EA000622DAE /* EnumStyle.swift */,
+			);
+			path = "Enum-Style";
+			sourceTree = "<group>";
+		};
+		63A210B328FB941700622DAE /* ParameterPassed */ = {
+			isa = PBXGroup;
+			children = (
+				63A210B128FB86D900622DAE /* ParameterPassedContentView.swift */,
+			);
+			path = ParameterPassed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A210A328FB6EF500622DAE /* EnumStyleSheetView.swift in Sources */,
+				63A210AD28FB740900622DAE /* View+Extensions.swift in Sources */,
+				63A210A928FB720E00622DAE /* EnvironmentValues+Extensions.swift in Sources */,
+				63A210A728FB71DB00622DAE /* ThemeEnvironmentKey.swift in Sources */,
+				63A210B228FB86D900622DAE /* ParameterPassedContentView.swift in Sources */,
 				63A2109328FB6E5B00622DAE /* ContentView.swift in Sources */,
 				63A2109128FB6E5B00622DAE /* ThemeStyleApp.swift in Sources */,
+				63A210A028FB6EA000622DAE /* EnumStyle.swift in Sources */,
+				63A210AB28FB737300622DAE /* Theme.swift in Sources */,
+				63A210B028FB7C7A00622DAE /* ColorTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
